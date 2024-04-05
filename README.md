@@ -62,7 +62,7 @@ Let's walk through the algorithm's execution with the full move tree, and show w
 
 Here is the function for scoring the game:
 
-# @player is the turn taking player
+ @player is the turn taking player
 ```
 def score(game)
     if game.win?(@player)
